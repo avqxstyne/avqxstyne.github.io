@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem;
+    background-color: rgb(232, 252, 255);
+    gap: 6rem;
+}
+
+.main {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.main   h2 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.places {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+.places div {
+    background-color: white;
+    box-shadow: 0px 0px 10px grey;
+    margin-bottom: 2rem;
+}
+.places div img {
+    width: 15rem;
+} .places div h2 {
+    font-size: 1.2rem;
+    padding: 0.5rem
+}

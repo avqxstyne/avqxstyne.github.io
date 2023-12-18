@@ -1,0 +1,25 @@
+main {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/bg.jpg);
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.activity p {
+    max-width: 50%;
+}
+
+.activity img {
+    box-shadow: 0px 0px 5px grey;
+}
